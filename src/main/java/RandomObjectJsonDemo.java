@@ -26,8 +26,7 @@ public class RandomObjectJsonDemo {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String json = gson.toJson(peopleList);
         System.out.println(json);
-        
-        System.out.println(json);
+
 
     }
 }
